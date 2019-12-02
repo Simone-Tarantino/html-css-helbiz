@@ -138,12 +138,31 @@ header {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 2000px;
+  font-size: 2em;
+}
+.col_padding_top_1 {
+  padding: 620px 0 0 10px;
 }
 
-.padding_col_top {
-  padding-top: 600px;
+.col_padding_top_2 {
+  padding-top: 220px;
 }
 
+.col_padding_top_3 {
+  padding: 620px 0 0 70px;
+}
+
+.background_img_long .container .col-lg-4 h2 {
+  font-size: 3.6rem;
+}
+
+.iphone_img {
+  height: 630px;
+}
+
+.col_lg_padding_top_3 h4 {
+  margin-bottom: 10px;
+}
 
 /* visualizzazione media / MD */
 
@@ -172,6 +191,27 @@ header {
 
   .veichle_col {
     font-size: 1.8em;
+  }
+
+  /* sezione iphone */
+
+  .background_img_long {
+    background-size: 1500px;
+  }
+
+  .col_padding_top_1 {
+    display: none;
+  }
+  .col_padding_top_2 {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .col_padding_top_3 {
+    display: none;
+  }
+
+  .iphone_img {
+    height: 550px;
   }
 }
 
@@ -214,6 +254,27 @@ header {
 
   .col_offset_xs_0 {
     margin-left: 0px;
+  }
+
+  /* sezione iphone */
+
+  .background_img_long {
+    background-size: 1300px;
+  }
+
+  .iphone_img {
+    height: 500px;
+  }
+
+  .col_padding_top_1 {
+    display: none;
+  }
+  .col_padding_top_2 {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .col_padding_top_3 {
+    display: none;
   }
 
 }
