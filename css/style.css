@@ -132,6 +132,9 @@ header {
 /* visualizzazione media / MD */
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
+
+  /* header */
+
   .header-top {
     padding: 0 2%;
   }
@@ -147,6 +150,12 @@ header {
   }
   .jumbo_text a img {
     width: 100%;
+  }
+
+  /* main */
+
+  .veichle_col {
+    font-size: 1.8em;
   }
 }
 
@@ -180,4 +189,15 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
+
+  /* main */
+
+  .container .veichle_col:last-child {
+    margin-top: 30px;
+  }
+
+  .col_offset_xs_0 {
+    margin-left: 0px;
+  }
+
 }
