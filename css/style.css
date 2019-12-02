@@ -46,8 +46,8 @@ header {
   vertical-align: middle;
 }
 .header_menu li{
-  text-align: left;
   margin-right: 25px;
+  text-align: left;
 }
 .header_menu_lang li:not(:last-child) {
   border-right: 1px solid black;
@@ -123,33 +123,33 @@ header {
 }
 
 .learn_more {
-  text-decoration: none;
-  color: #2E70C8;
   display: block;
   margin-bottom: 15px;
+  text-decoration: none;
+  color: #2E70C8;
 }
 .learn_more:hover {
   text-decoration: underline;
 }
 .learn_more::after {
   content: url("../img/arrow.png");
-  text-decoration: none;
   padding-left: 10px;
+  text-decoration: none;
 }
 
 .learn_more_white {
-  text-decoration: none;
-  color: white;
   display: block;
   margin-top: 15px;
+  text-decoration: none;
+  color: white;
 }
 .learn_more_white:hover {
   text-decoration: underline;
 }
 .learn_more_white::after {
   content: url("../img/arrow_white.png");
-  text-decoration: none;
   padding-left: 10px;
+  text-decoration: none;
 }
 
 .veichle_img {
@@ -198,17 +198,14 @@ header {
   background-size: cover;
 }
 
-
-
 .background_img_green .white_text {
-  text-align: center;
   padding: 100px;
+  text-align: center;
   font-size: 2.2em;
 }
 .background_img_green .white_text h2 {
   font-size: 5rem;
 }
-
 
 /* visualizzazione media / MD */
 
@@ -248,10 +245,12 @@ header {
   .col_padding_top_1 {
     display: none;
   }
+
   .col_padding_top_2 {
     padding-top: 100px;
     text-align: center;
   }
+
   .col_padding_top_3 {
     display: none;
   }
@@ -317,12 +316,13 @@ header {
   .col_padding_top_1 {
     display: none;
   }
+
   .col_padding_top_2 {
     padding-top: 100px;
     text-align: center;
   }
+
   .col_padding_top_3 {
     display: none;
   }
-
 }
