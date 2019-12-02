@@ -4,7 +4,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
+  background-color: white;
 }
 
 .container_1000 {
@@ -89,6 +89,48 @@ header {
   margin-bottom: 0.8rem;
 }
 
+/* main */
+
+.veichle_section {
+  margin: 90px 0;
+}
+
+.veichle_col {
+  text-align: center;
+  font-size: 2em;
+  background-color: #FAFAFA;
+}
+
+.main_container_logo {
+  width: 200px;
+  margin: 40px 0 20px;
+}
+
+.container .veichle_col p {
+  margin-bottom: 10px;
+}
+
+.learn_more {
+  text-decoration: none;
+  color: #2E70C8;
+  display: block;
+  margin-bottom: 15px;
+}
+.learn_more:hover {
+  text-decoration: underline;
+}
+.learn_more::after {
+  content: url("../img/arrow.png");
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.veichle_img {
+  height: 400px;
+}
+
+/* visualizzazione media / MD */
+
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
     padding: 0 2%;
@@ -107,6 +149,8 @@ header {
     width: 100%;
   }
 }
+
+/* visualizzazione piccola / XS */
 
 @media screen and (max-width: 768px) {
   body {
