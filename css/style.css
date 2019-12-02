@@ -88,6 +88,12 @@ header {
   font-size: 1.5em;
   margin-bottom: 0.8rem;
 }
+.opacity {
+  z-index: 1;
+  height: 400px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 /* main */
 
