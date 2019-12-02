@@ -7,6 +7,10 @@ body {
   background-color: white;
 }
 
+.white_text {
+  color: white;
+}
+
 .container_1000 {
   max-width: 1000px;
   margin: 0 auto;
@@ -133,6 +137,21 @@ header {
   padding-left: 10px;
 }
 
+.learn_more_white {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 15px;
+}
+.learn_more_white:hover {
+  text-decoration: underline;
+}
+.learn_more_white::after {
+  content: url("../img/arrow_white.png");
+  text-decoration: none;
+  padding-left: 10px;
+}
+
 .veichle_img {
   height: 400px;
 }
@@ -169,6 +188,27 @@ header {
 .col_lg_padding_top_3 h4 {
   margin-bottom: 10px;
 }
+
+/* sezione 3 divs */
+
+.background_img_green {
+  background-image: url("../img/ScooterHelbiz-2400.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.background_img_green .white_text {
+  text-align: center;
+  padding: 100px;
+  font-size: 2.2em;
+}
+.background_img_green .white_text h2 {
+  font-size: 5rem;
+}
+
 
 /* visualizzazione media / MD */
 
@@ -219,6 +259,8 @@ header {
   .iphone_img {
     height: 550px;
   }
+
+  /* sezione 3 divs */
 }
 
 /* visualizzazione piccola / XS */
