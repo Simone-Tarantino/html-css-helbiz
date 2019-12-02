@@ -91,6 +91,8 @@ header {
 
 /* main */
 
+/* sezione veicoli */
+
 .veichle_section {
   margin: 90px 0;
 }
@@ -128,6 +130,20 @@ header {
 .veichle_img {
   height: 400px;
 }
+
+/* sezione iphone */
+
+.background_img_long {
+  background-image: url("../img/HelbizBanner.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+}
+
+.padding_col_top {
+  padding-top: 600px;
+}
+
 
 /* visualizzazione media / MD */
 
