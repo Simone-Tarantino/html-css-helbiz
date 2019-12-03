@@ -299,8 +299,10 @@ header {
   }
 
   /* main */
-
-  .container .veichle_col:last-child {
+  .container .grey_box {
+    margin: 0 0;
+  }
+  .container .grey_box:last-child {
     margin-top: 30px;
   }
 
